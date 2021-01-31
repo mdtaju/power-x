@@ -12,11 +12,11 @@ This is a demo website. It has been created as a gym website. You can create onl
 #### Front-End
 - HTML
 - CSS
-- BOOTSTRAP4
+- BOOTSTRAP-4
 - JAVASCRIPT
 - REACT
 - REACT-ROUTER-DOM
 - MATERIAL-UI
 
-### Back-End
+#### Back-End
 No Back End Development.
