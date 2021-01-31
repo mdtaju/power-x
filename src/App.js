@@ -1,24 +1,40 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route
+} from "react-router-dom";
+import ClassDetails from './Component/ClassDetails/ClassDetails';
+import HomePage from './Component/HomePage/HomePage';
+import MemberShip from './Component/MemberShip/MemberShip';
+import OurClasses from './Component/OurClasses/OurClasses';
+import Pricing from './Component/Pricing/Pricing';
+import ScrollToTop from './Component/ScrollToTop/ScrollToTop';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Router>
+        <ScrollToTop showBelow={250}/>
+        <Switch>
+          <Route exact path='/'>
+            <HomePage />
+          </Route>
+          <Route exact path='/our-classes'>
+            <OurClasses />
+          </Route>
+          <Route path='/our-classes/class/:ClassParameter'>
+            <ClassDetails />
+          </Route>
+          <Route path='/pricing'>
+            <Pricing />
+          </Route>
+          <Route path='/membership'>
+            <MemberShip />
+          </Route>
+        </Switch>
+      </Router>
+    </>
   );
 }
 

@@ -1,0 +1,110 @@
+section.membership_main_container {
+    padding-bottom: 30px;
+}
+.MuiStepIcon-root.MuiStepIcon-completed {
+    color: var(--yellow) !important;
+}
+.MuiStepIcon-root.MuiStepIcon-active {
+    color: gray !important;
+}
+div.PersonalDetails_main_container {
+    margin-top: 50px;
+}
+div.PersonalDetailsInputContainer {
+    margin-bottom: 30px;
+}
+div.PersonalDetailsInputContainer label {
+    font-weight: 500;
+}
+div.membership_details_container {
+    position: relative;
+}
+div.membership_nextBtn {
+    position: absolute;
+    right: 0;
+}
+div.inputLabelAria {
+    padding: 0;
+}
+div.creditCardMainContainer {
+    margin-top: 50px;
+    padding: 50px;
+    border-radius: 3px;
+    border: 1px solid gray;
+}
+div.creditCartImgAria {
+    width: max-content;
+}
+div.creditCartImgAria img {
+    margin-left: 20px;
+}
+input[type="radio"] {
+    display: none;
+}
+label.radio__custom {
+    position: relative;
+    cursor: pointer;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+label.radio__custom::before {
+    content: '';
+    border: 2px solid var(--yellow);
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin: -8px 20px;
+    margin-left: 0;
+}
+label.radio__custom::after {
+    content: '';
+    position: absolute;
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    background: white;
+    left: 6px;
+    top: 18px;
+    margin: -8px 20px;
+    margin-left: 0;
+    transition: all 0.4s;
+}
+input[type="radio"]:checked + label.radio__custom::after {
+    background: var(--yellow);
+}
+p.input__information {
+    margin-left: 51px;
+    font-size: .9rem;
+    color: gray;
+}
+input.card__input {
+    padding: 20px;
+}
+div.cardNumberContainer {
+    margin-top: 50px;
+}
+label.cardInputLabel {
+    font-weight: 500;
+}
+div.cardNameContainer {
+    margin-top: 30px;
+}
+div.payPalMainContainer {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 50px;
+    border: 1px solid gray;
+    border-radius: 3px;
+}
+div.memberShipCreatedMainContainer {
+    margin: 80px 0px;
+}
+div.memberShipCreatedMainContainer h1 {
+    text-align: center;
+    color: var(--yellow);
+}
+div.memberShipCreatedMainContainer h1 span {
+    color: black;
+}

@@ -1,0 +1,53 @@
+section.homePage_trainingPrograms_mainContainer {
+    margin-top: 120px;
+}
+.training_programs_title {
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 80px;
+}
+.training_programs_title span {
+    color: var(--yellow);
+}
+div.homePage_trainingImage {
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 433px;
+    position: relative;
+    margin-bottom: 30px;
+}
+@media(max-width: 768px) {
+    div.homePage_trainingImage {
+        height: 265px;
+    }
+}
+div.homePage_trainingImage_01 {
+    background-image: url('../../../Resources/Image\ &\ Icon/trainingPrograms1.png');
+}
+div.homePage_trainingImage_02 {
+    background-image: url('../../../Resources/Image\ &\ Icon/trainingPrograms2.jpg');
+}
+
+div.homePage_trainingImage_subContainer {
+    position: absolute;
+    bottom: 10%;
+    left: 0;
+    background: var(--yellow);
+    padding: 3% 6%;
+    display: flex;
+    align-items: center;
+}
+div.homePage_trainingImage_subContainer h2 {
+    margin: 0;
+    font-size: 2rem;
+    margin-right: .5rem;
+}
+@media(max-width: 768px) {
+    div.homePage_trainingImage_subContainer h2 {
+        font-size: 1.5rem;
+    }
+}
+svg.bi-arrow-right-short {
+    width: 2.5rem;
+    height: 2.5rem;
+}

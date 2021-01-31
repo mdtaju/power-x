@@ -1,0 +1,36 @@
+section.ourClassesOption_main_container {
+    margin-top: 100px;
+    margin-bottom: -100px;
+}
+div.ourClassesCategories {
+    height: 350px;
+    background-size: cover;
+    background-position: center center;
+    margin-bottom: 100px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+div.ourClassCategoriesBtn {
+    background: var(--yellow);
+    width: 90%;
+    position: absolute;
+    bottom: -33px;
+    cursor: pointer;
+}
+a.ourClassCategoriesChildLink {
+    width: 100%;
+    height: 100%;
+    padding: 20px 10px;
+    display: flex;
+    align-items: center;
+    color: black;
+}
+a.ourClassCategoriesChildLink:hover {
+    text-decoration: none;
+    color: black;
+}
+a.ourClassCategoriesChildLink h2 {
+    width: max-content;
+    margin: 0px auto;
+}

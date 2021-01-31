@@ -1,0 +1,11 @@
+div.globalSlider_main_container {
+    background-image: linear-gradient(rgb(0, 0, 0, 0.7), rgb(0, 0, 0, 0.7)), url('../../Resources/Image\ &\ Icon/slider-image - Copy.jpg');
+    background-size: cover;
+}
+div.globalSlider_main_container h1 {
+    color: white;
+    text-align: center;
+    font-size: 5rem;
+    margin-top: 10%;
+    padding-bottom: 15%;
+}

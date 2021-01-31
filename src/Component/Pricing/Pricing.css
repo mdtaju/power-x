@@ -1,0 +1,57 @@
+section.pricingMainContainer {
+    margin-top: 100px;
+    text-align: center;
+}
+div.pricingPlanRowContainer {
+    margin-top: 50px;
+}
+.color_title {
+    color: var(--yellow);
+}
+div.pricingPlansOptions {
+    padding: 50px 20px;
+    color: white;
+    background-size: cover;
+    background-position: center center;
+}
+@media(max-width: 768px) {
+    div.pricingCenter {
+        margin: 0px auto;
+    }
+    div.pricingPlansOptions {
+        margin-top: 40px;
+    }
+}
+div.pricingPlansOptions01 {
+    background-image: linear-gradient(rgb(0, 0, 0, 0.5), rgb(0, 0, 0, 0.5)), url('../../Resources/Image\ &\ Icon/homePage-categories-01.jpg');
+}
+div.pricingPlansOptions02 {
+    background-image: linear-gradient(rgb(0, 0, 0, 0.5), rgb(0, 0, 0, 0.5)), url('../../Resources/Image\ &\ Icon/homePage-categories-02.jpg');
+}
+div.pricingPlansOptions03 {
+    background-image: linear-gradient(rgb(0, 0, 0, 0.5), rgb(0, 0, 0, 0.5)), url('../../Resources/Image\ &\ Icon/homePage-categories-03.jpg');
+}
+ul.pricingOptionsList {
+    list-style-type: none;
+    padding-left: 0;
+    width: max-content;
+    margin: 0px auto;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+ul.pricingOptionsList li {
+    text-align: left;
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+.pricingCheckIcon {
+    margin-right: 10px;
+}
+.pricing_validDate_title {
+    color: var(--yellow);
+}
+.pricing_price {
+    font-size: 4rem;
+    color: var(--yellow);
+}

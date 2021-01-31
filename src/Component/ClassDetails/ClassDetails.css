@@ -1,0 +1,62 @@
+section.classDetailsMainContainer {
+    margin-top: 100px;
+}
+div.classDetailsImageAria img {
+    width: 100%;
+}
+.classDetailsTitle {
+    font-size: 3rem;
+    margin-bottom: 40px;
+}
+@media(max-width: 768px) {
+    .classDetailsTitle {
+        margin-top: 20px;
+        text-align: center;
+    }
+}
+.classDetailsTitle span {
+    color: var(--yellow);
+} 
+div.classDetailsSchedule {
+    padding: 15px 20px;
+    box-shadow: 0px 1px 5px 0px gray;
+    margin-bottom: 20px;
+}
+div.classDetailsSchedule h5 {
+    font-weight: 600;
+}
+div.classDetailsSchedule span {
+    color: var(--yellow);
+}
+div.classDetailsDescription {
+    margin: 30px 0px;
+}
+div.classDetailsTopicsContainer {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+ul.classDetailsTopics {
+    list-style-type: none;
+    margin-bottom: -30px;
+    padding-left: 0;
+}
+ul.classDetailsTopics li {
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+ul.classDetailsTopics li img {
+    margin-right: 30px;
+}
+@media(max-width: 425px) {
+    div.classDetailsTopicsContainer {
+        display: block;
+    }
+    ul.classDetailsTopics {
+        margin-bottom: 50px;
+        padding: 0;
+    }
+}
+.ourClassesNavLink {
+    color: var(--yellow);
+}

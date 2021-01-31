@@ -1,0 +1,27 @@
+section.homePage_aboutUs_mainContainer {
+    margin-top: 100px;
+}
+div.aboutUs_image_aria img {
+    width: 100%;
+}
+div.aboutUs_text_aria {
+    margin-right: 40px;
+}
+@media(max-width: 768px) {
+    div.aboutUs_text_aria {
+        margin-right: 0px;
+        margin-top: 40px;
+    }
+}
+h1.aboutUs_title {
+    color: gray;
+    font-size: 60px;
+    opacity: 30%;
+}
+h1.aboutUs_dream {
+    color: var(--yellow);
+    margin-top: 30px;
+}
+div.aboutUs_text_aria p {
+    margin-top: 30px;
+}
